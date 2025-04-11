@@ -1,9 +1,22 @@
 export default function Home() {
   return (
-    <main className={'flex w-full items-center justify-center h-screen'}>
-      <h1 className={'scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'}>
-        Hello new Project!
-      </h1>
+    <main className={'flex h-screen w-full'}>
+      форма
+      <div>{[].map(() => {})}</div>
+      добавление задач
+      <button></button>
+      <div>модалка</div>
+      редактировать задачу
+      <button></button>
+      <div>модалка</div>
+      удаление
+      <button></button>
+      <div>модалка</div>
+      выполнить задачу
+      <button></button>
+      фильтрация/сортировка
+      <select name={''} id={''}></select>
+      <div></div>
     </main>
   )
 }

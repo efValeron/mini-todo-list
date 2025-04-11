@@ -10,7 +10,7 @@
     "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --no-error-on-unmatched-pattern"
   },
   "dependencies": {
-    "next": "14.2.3",
+    "next": "^15.3.0",
     "react": "18",
     "react-dom": "18"
   },
